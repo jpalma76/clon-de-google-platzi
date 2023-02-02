@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    width: 100%;
+    height: 60px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+}
+header nav .nav-right-section {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.avatar {
+    padding: 10px;
+    margin-top: 5px;
+}
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000;
+}
+nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+nav .nav-right-section  img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+/* maquetación del main */
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main-logo img {
+    width: 272px;
+    height: 92;
+    margin: 0;
+    padding: 0;
+}
+.main-input {
+    width: 561px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main-input .main-input-container {
+    width: 561px;
+    height: 44px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 430px;
+    height: 41px;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+main .main-input-container:hover {
+    box-shadow: 0 2px 5px 0 #20212447;
+    border-color: #dfe1e500;
+}
+/* icono de Search */
+main .main-input .search-icon {
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+}
+/* icono de microfono */
+main .main-input .micro-icon {
+    cursor: pointer;
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 44px;
+}
+
+/* Estilos de botones */
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+}
+button {
+    width: 190px;
+    height: 53px;
+    cursor: pointer;
+    border: 1px solid #e6dfdf;
+    border-radius: 5px;
+    margin: 11px 10px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+}
+footer {
+    width: 100%;
+    height: 94px;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    color: dimgray;
+}
+
+footer li{
+    list-style: none;
+}
+footer .country {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    align-items: center ;
+    padding-left: 30px;
+}
+.footer-container {
+    position: relative;    
+    width: 100%;
+    height: 46px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #e4e4e4;
+    align-items: center ;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer-left {
+    display: flex;
+    justify-self: left;
+
+}
+.footer-left li {
+    margin-right: 20px;
+}
+.footer-right {
+    display: flex;
+    justify-content: right;
+}
+.footer-right li {
+    margin-left: 10px;
+}
